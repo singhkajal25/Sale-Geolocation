@@ -1,0 +1,42 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Sales Order",
+        "module": "Sale Geolocation",
+        "fieldname": "geolocation",
+        "fieldtype": "Tab Break",
+        "label": "Geolocation",
+        "name": "geolocation",
+        "insert_after": "party_account_currency"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Sales Order",
+        "module": "Sale Geolocation",
+        "fieldname": "latitude",
+        "fieldtype": "Float",
+        "label": "Latitude",
+        "name": "latitude",
+        "insert_after": "geolocation"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Sales Order",
+        "module": "Sale Geolocation",
+        "fieldname": "longitude",
+        "fieldtype": "Float",
+        "label": "Longitude",
+        "name": "longitude",
+        "insert_after": "latitude"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Sales Order",
+        "module": "Sale Geolocation",
+        "fieldname": "google_map",
+        "fieldtype": "Button",
+        "label": "Google Map",
+        "name": "google_map",
+        "insert_after": "longitude"
+    }
+]

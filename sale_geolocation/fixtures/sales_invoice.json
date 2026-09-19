@@ -1,0 +1,42 @@
+[
+	{
+		"doctype": "Custom Field",
+		"dt": "Sales Invoice",
+		"module": "Sale Geolocation",
+		"fieldname": "geolocation",
+		"fieldtype": "Tab Break",
+		"name": "Sales Invoice-geolocation",
+		"label": "Geolocation",
+		"insert_after": "remarks"
+	},
+	{
+		"doctype": "Custom Field",
+		"dt": "Sales Invoice",
+		"module": "Sale Geolocation",
+		"fieldname": "latitude",
+		"fieldtype": "Float",
+		"name": "Sales Invoice-latitude",
+		"label": "Latitude",
+		"insert_after": "geolocation"
+	},
+	{
+		"doctype": "Custom Field",
+		"dt": "Sales Invoice",
+		"module": "Sale Geolocation",
+		"fieldname": "longitude",
+		"name": "Sales Invoice-longitude",
+		"fieldtype": "Float",
+		"label": "Longitude",
+		"insert_after": "latitude"
+	},
+	{
+		"doctype": "Custom Field",
+		"module": "Sale Geolocation",
+		"dt": "Sales Invoice",
+		"fieldname": "google_map",
+		"fieldtype": "Button",
+		"name": "Sales Invoice-google_map",
+		"label": "Google Map",
+		"insert_after": "longitude"
+	}
+]

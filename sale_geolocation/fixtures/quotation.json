@@ -1,0 +1,42 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Quotation",
+        "module": "Sale Geolocation",
+        "fieldname": "geolocation",
+        "fieldtype": "Tab Break",
+        "label": "Geolocation",
+        "name": "Quotation-geolocation",
+        "insert_after": "enq_det"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Quotation",
+        "module": "Sale Geolocation",
+        "fieldname": "latitude",
+        "fieldtype": "Float",
+        "label": "Latitude",
+        "name": "Quotation-latitude",
+        "insert_after": "geolocation"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Quotation",
+        "module": "Sale Geolocation",
+        "fieldname": "longitude",
+        "fieldtype": "Float",
+        "label": "Longitude",
+        "name": "Quotation-longitude",
+        "insert_after": "latitude"
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Quotation",
+        "module": "Sale Geolocation",
+        "fieldname": "google_map",
+        "fieldtype": "Button",
+        "label": "Google Map",
+        "name": "Quotation-google_map",
+        "insert_after": "longitude"
+    }
+]
